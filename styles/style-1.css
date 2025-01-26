@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(/img/wrapper.JPG) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    height: 5em;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    width: 8.75em;
+    height: auto;
+    padding: 0.9375em 6.25em;
+}
+
+.navbar ol {
+    float: right;
+    justify-content: right;
+    margin-right: 1.25em;
+}
+
+.navbar ol li {
+    list-style: none;
+    margin: 0 0.5em;
+    display: inline-flex;
+    line-height: 5em;
+}
+
+.navbar ol li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    padding: 0.375em 0.8125em;
+    font-family: 'roboto', sans-serif;
+    transition: color 0.4s, background-color 0.4s;
+}
+
+.navbar ol li a:hover {
+    color: blue;
+    border-radius: 0.125em;
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.index h1 {
+    color: white;
+    text-decoration: overline underline black;
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 1em;
+}
+
+.index h2 {
+    color: white;
+    text-decoration: overline underline black;
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 1em;
+}
+
+.index .buttons {
+    margin: 2.1875em 17.5em;
+}
+
+.buttons button {
+    height: 3.125em;
+    width: 9em;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    border: 0.0625em solid white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1.5em;
+    transition: .5s;
+}
+
+.buttons .btn {
+    margin-left: 1.5625em;
+    display: block;
+    margin: auto;
+}
+
+.buttons button:hover {
+    background: red;
+}
+
+.aflevering1 {
+    width: 25em;
+    height: auto;
+    border: 0.1875em solid black;
+    display: block;
+    margin: auto;
+}
+
+.LastEpisode h3 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.LastEpisode h4 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    height: auto;
+}
+
+.p1 {
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.btn2 {
+    height: 3.125em;
+    width: 9em;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    border: 0.0625em solid white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1.5em;
+    transition: .5s;
+}
+
+.buttons2 button:hover {
+    background: red;
+}
+
+.FooterIndex {
+    color: white;
+}
+
+.h1Afleveringen {
+    color: white;
+    font-size: 2em;
+    text-decoration: overline underline black;
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+}
+
+.Afleveringen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.txtaflevering img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.3em 0.3em 0 0;
+    transition: transform 0.3s ease;
+}
+
+.txtaflevering img:hover {
+    transform: scale(1.1);
+}
+
+.Afleveringen .txtaflevering {
+    margin-top: 0.5em;
+    flex: 1 1 calc(50% - 1em);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1em;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    font-size: 1.5em;
+}
+
+.buttons3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.btn3 {
+    height: 3.125em;
+    width: 10em;
+    font-size: 1.125em;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    border: 0.0625em solid white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1.5em;
+    transition: .5s;
+}
+
+.buttons3 button:hover {
+    background: red;
+}
+
+.FooterAfleveringen {
+    color: white;
+}
+
+.overons h1 {
+    color: white;
+    text-decoration: overline underline black;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.overons h2 {
+    color: white;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.overons .AfbeeldingDex {
+    width: 15em;
+    height: auto;
+    border: 0.2em solid black;
+    display: block;
+    margin: auto;
+}
+
+.overons .p1 {
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.overons h3 {
+    color: white;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.overons .AfbeeldingRonald {
+    width: 15em;
+    height: auto;
+    border: 0.2em solid black;
+    display: block;
+    margin: auto;
+}
+
+.overons .p2 {
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.overons h4 {
+    color: white;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.overons .AfbeeldingSenuk {
+    width: 15em;
+    height: auto;
+    border: 0.2em solid black;
+    display: block;
+    margin: auto;
+}
+
+.overons .p3 {
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.5em;
+    border-radius: 0.3em;
+    width: 20em;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.FooterOverons {
+    color: white;
+}
